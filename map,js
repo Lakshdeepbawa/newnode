@@ -1,0 +1,10 @@
+const students = [
+  {name : "vishal", marks : 56 },
+   {name : "vishal", marks : 56 },
+    {name : "vishal", marks : 56 }
+];
+ 
+ const result = students.map(student => student.marks);
+ console.log(result);
+
+ 
